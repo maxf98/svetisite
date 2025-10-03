@@ -1,0 +1,11 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Moi",
+    "contact": "Kontaktuy"
+  },
+  "hero": {
+    "title": "Bienvenido a nuestro sitio",
+    "subtitle": "Construyendo algo increíble"
+  }
+}
