@@ -1,0 +1,81 @@
+.contactContainer {
+  max-width: 1000px;
+  position: relative;
+  border: var(--default-border);
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  gap: 80px;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.contactText {
+  color: var(--text-secondary);
+}
+
+.entryField {
+  border: var(--default-border);
+  outline: 2px solid transparent; /* expandable "border" */
+
+  border-radius: 10px;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.entryField:focus {
+  outline-color: var(--accent-color);
+}
+
+.message {
+  text-align: left;
+  resize: none;
+  min-height: 150px;
+}
+
+.contactMe {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.nameAndEmail {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex: 1;
+}
+
+.submitButton {
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mailText {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .contactForm {
+    flex-direction: column;
+  }
+
+  .nameAndEmail {
+    flex-direction: column;
+  }
+}

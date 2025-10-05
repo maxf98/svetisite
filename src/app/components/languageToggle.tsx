@@ -10,12 +10,25 @@ export default function LanguageToggle() {
   }
 
   return (
-    <button onClick={toggleLang} className="font-bold cursor-pointer">
-      <motion.span animate={{ color: lang == "de" ? "#888888" : "#352b2bff" }}>
+    <button
+      onClick={toggleLang}
+      className="text-3xl sm:text-lg font-bold cursor-pointer"
+    >
+      <motion.span
+        animate={{
+          color:
+            lang == "de" ? "var(--foreground)" : "var(--foreground-tertiary)",
+        }}
+      >
         de
       </motion.span>
       <span> | </span>
-      <motion.span animate={{ color: lang == "ru" ? "#888888" : "#352b2bff" }}>
+      <motion.span
+        animate={{
+          color:
+            lang == "ru" ? "var(--foreground)" : "var(--foreground-tertiary)",
+        }}
+      >
         ru
       </motion.span>
     </button>
