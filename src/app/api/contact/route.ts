@@ -33,7 +33,7 @@ export async function POST(req: NextRequest) {
 
     console.log("📬 Sending email via Resend...");
     const { data, error } = await resend.emails.send({
-      from: "Contact Form <maxfest@quards.app>", // Replace with your domain
+      from: "Contact Form <contact@voice-academy-munich.de>",
       to: [process.env.CONTACT_RECEIVER!],
       replyTo: email,
       subject: `Contact Form: ${name}`,

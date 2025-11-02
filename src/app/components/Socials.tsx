@@ -45,7 +45,7 @@ export default function Socials({ size = 20 }: { size?: number }) {
       <SocialsButton href="https://www.tiktok.com/@svetivoicecoach">
         <FaTiktok size={size} />
       </SocialsButton>
-      <SocialsButton href="mailto:svetlana_prandetskaya@yahoo.de">
+      <SocialsButton href="mailto:contact@voice-academy-munich.de">
         <FaEnvelope size={size} />
       </SocialsButton>
     </div>

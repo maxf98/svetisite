@@ -33,16 +33,21 @@ function resolveKey(lang: Lang, key: string): unknown {
 }
 
 export function TranslationProvider({ children }: { children: ReactNode }) {
-  const [lang, setLang] = useState<Lang>("de");
+  const [lang, setLang] = useState<Lang>("ru");
 
   function t(key: string): string;
   function t(key: string, options: { returnObjects: true }): string[];
-  function t(key: string, options?: { returnObjects: true }): string | string[] {
+  function t(
+    key: string,
+    options?: { returnObjects: true }
+  ): string | string[] {
     const resolved = resolveKey(lang, key);
 
     if (options?.returnObjects) {
       if (Array.isArray(resolved)) {
-        return resolved.filter((item): item is string => typeof item === "string");
+        return resolved.filter(
+          (item): item is string => typeof item === "string"
+        );
       }
       if (typeof resolved === "string") {
         return [resolved];

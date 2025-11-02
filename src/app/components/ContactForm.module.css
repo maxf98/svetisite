@@ -67,7 +67,10 @@
 }
 
 .mailText {
-  color: var(--text-secondary);
+  color: var(--accent-color);
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
 }
 
 @media (max-width: 768px) {

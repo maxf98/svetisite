@@ -13,7 +13,7 @@ export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <div className="font-sans items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:gap-16 sm:p-20 whitespace-pre-line">
+    <div className="font-sans items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:gap-16 sm:p-20 whitespace-pre-line max-w-[1000px]">
       <section className="relative flex flex-col w-full h-screen justify-center">
         <div className="flex flex-col md:flex-row items-center">
           <div className="flex-1 flex flex-col justify-center gap-2 sm:gap-6">
@@ -46,11 +46,26 @@ export default function Home() {
           height={800}
         />
         <div className="flex flex-col p-2 sm:p-20 gap-10">
+          <h2>{t("about.title")}</h2>
           <p className="">{t("about.aboutSveti")}</p>
           <div className="p-8 sm:p-20">
             <Resonanz />
           </div>
         </div>
+      </section>
+
+      <section className="w-full flex flex-col sm:flex-row items-center gap-12">
+        <div className="flex flex-col p-2 sm:p-20 gap-10">
+          <h2>{t("aboutschool.title")}</h2>
+          <p>{t("aboutschool.about")}</p>
+        </div>
+        <Image
+          className="border rounded-xl"
+          src="/mom1.png"
+          alt="svetlana prandetskaya"
+          width={800}
+          height={800}
+        />
       </section>
 
       <section>
@@ -64,7 +79,7 @@ export default function Home() {
         />
         <OfferInstance
           title={t("offers.jahresabschlusskonzert.title")}
-          text={t("offers.jahresabschlusskonzert.text")}
+          textKey={"offers.jahresabschlusskonzert.text"}
           image="/abschlusskonzert.png"
         >
           <div className="flex flex-row">
@@ -86,7 +101,7 @@ export default function Home() {
         />
         <OfferInstance
           title={t("offers.masterclass.title")}
-          text={t("offers.masterclass.text")}
+          textKey={"offers.masterclass.text"}
           image="/masterclass.png"
         />
       </section>

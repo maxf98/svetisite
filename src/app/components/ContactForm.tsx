@@ -41,6 +41,9 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
 
     const res = await fetch("/api/contact", {
       method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
       body: JSON.stringify(form),
     });
     console.log(res);
@@ -53,6 +56,8 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
       }, 500);
       setForm({ name: "", email: "", message: "" });
     } else {
+      const errorData = await res.json().catch(() => null);
+      console.error("Error response:", errorData);
       setStatus("Failed to send message.");
     }
   };
@@ -134,6 +139,13 @@ export default function ContactForm({ onSubmit }: ContactFormProps) {
           </motion.div>
         )}
       </div>
+
+      <a
+        href="mailto:contact@voice-academy-munich.de"
+        className={styles.mailText}
+      >
+        contact@voice-academy-munich.de
+      </a>
     </div>
   );
 }
