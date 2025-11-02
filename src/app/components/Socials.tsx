@@ -33,18 +33,18 @@ function SocialsButton({
 export default function Socials({ size = 20 }: { size?: number }) {
   return (
     <div className="flex flex-row gap-2">
-      <SocialsButton href="https://www.instagram.com/sveti.voicecoach/">
+      <SocialsButton href="https://www.instagram.com/svetlana_prandetskaya?igsh=cWI5YjA5YXhnMmNm&utm_source=qr">
         <FaInstagram size={size} />
       </SocialsButton>
-      <SocialsButton href="https://www.facebook.com/sveti.voicecoach">
+      <SocialsButton href="https://www.facebook.com/share/1GmkykHn1J/?mibextid=wwXIfr">
         <FaFacebookF size={size} />
       </SocialsButton>
-      <SocialsButton href="https://www.youtube.com/@svetivoicecoach">
+      <SocialsButton href="https://youtube.com/@igorsvetairy?si=GDYZoN2QPKrJuQKA">
         <FaYoutube size={size} />
       </SocialsButton>
-      <SocialsButton href="https://www.tiktok.com/@svetivoicecoach">
+      {/* <SocialsButton href="https://www.tiktok.com/@svetivoicecoach">
         <FaTiktok size={size} />
-      </SocialsButton>
+      </SocialsButton> */}
       <SocialsButton href="mailto:contact@voice-academy-munich.de">
         <FaEnvelope size={size} />
       </SocialsButton>

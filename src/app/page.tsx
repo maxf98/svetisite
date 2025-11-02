@@ -8,16 +8,17 @@ import ContactButton from "./components/ContactButton";
 import Resonanz from "./components/Resonanz";
 
 import { useTranslation } from "./providers";
+import TranslatedHTML from "./components/TranslatedHTML";
 
 export default function Home() {
   const { t } = useTranslation();
 
   return (
-    <div className="font-sans items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:gap-16 sm:p-20 whitespace-pre-line max-w-[1000px]">
+    <div className="font-sans flex flex-col items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 whitespace-pre-line ">
       <section className="relative flex flex-col w-full h-screen justify-center">
         <div className="flex flex-col md:flex-row items-center">
-          <div className="flex-1 flex flex-col justify-center gap-2 sm:gap-6">
-            <h1 className="text-[var(--accent-color)] font-bold w-full text-start">
+          <div className="flex-1 flex flex-col text-center justify-center gap-2 sm:gap-6">
+            <h1 className="text-[var(--accent-color)] font-bold w-full">
               {t("hero.title")}
             </h1>
             <h2 className="text-xl !mt-0 font-semibold">
@@ -37,7 +38,20 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="w-full flex flex-col sm:flex-row items-center gap-12">
+      <section className="w-full flex flex-col lg:flex-row items-center gap-6">
+        <Image
+          className="border rounded-xl"
+          src="/mom1.png"
+          alt="svetlana prandetskaya"
+          width={800}
+          height={800}
+        />
+        <div className="flex flex-col p-2 sm:p-20 gap-10">
+          <h2>{t("aboutschool.title")}</h2>
+          <TranslatedHTML translationKey="aboutschool.about" />
+        </div>
+      </section>
+      <section className="w-full flex flex-col lg:flex-row items-center gap-6">
         <Image
           className="border rounded-xl"
           src="/sveti.jpg"
@@ -54,36 +68,18 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full flex flex-col sm:flex-row items-center gap-12">
-        <div className="flex flex-col p-2 sm:p-20 gap-10">
-          <h2>{t("aboutschool.title")}</h2>
-          <p>{t("aboutschool.about")}</p>
-        </div>
-        <Image
-          className="border rounded-xl"
-          src="/mom1.png"
-          alt="svetlana prandetskaya"
-          width={800}
-          height={800}
-        />
-      </section>
-
       <section>
         <OfferSection
           title={t("offers.gesangsunterricht.title")}
           subtitle={t("offers.gesangsunterricht.subtitle")}
-          text={t("offers.gesangsunterricht.text")}
-          bulletpoints={t("offers.gesangsunterricht.bulletpoints", {
-            returnObjects: true,
-          })}
+          textKey={"offers.gesangsunterricht.text"}
         />
         <OfferInstance
           title={t("offers.jahresabschlusskonzert.title")}
           textKey={"offers.jahresabschlusskonzert.text"}
           image="/abschlusskonzert.png"
         >
-          <div className="flex flex-row">
-            <div className="flex-0 sm:flex-1" />
+          <div className="flex flex-row mt-6">
             <div className="flex-1">
               <Referrals />
             </div>
@@ -94,15 +90,12 @@ export default function Home() {
         <OfferSection
           title={t("offers.vocalcoaching.title")}
           subtitle={t("offers.vocalcoaching.subtitle")}
-          text={t("offers.vocalcoaching.text")}
-          bulletpoints={t("offers.vocalcoaching.bulletpoints", {
-            returnObjects: true,
-          })}
+          textKey={"offers.vocalcoaching.text"}
         />
         <OfferInstance
           title={t("offers.masterclass.title")}
           textKey={"offers.masterclass.text"}
-          image="/masterclass.png"
+          image="/masterclass2.JPG"
         />
       </section>
 

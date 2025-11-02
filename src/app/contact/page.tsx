@@ -6,7 +6,7 @@ import Image from "next/image";
 import { useTranslation } from "../providers";
 
 const MAP_EMBED_URL =
-  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.3311427307673!2d11.589911!3d48.139282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e762c1c1f0621%3A0x6e6e508a20ef2fd1!2sVoice%20Academy%20Munich!5e0!3m2!1sen!2sde!4v1700000000000!5m2!1sen!2sde";
+  "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10473.432895573338!2d11.563447222489872!3d48.107794438128956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ddf153188d85f%3A0xe9dcd0557db4a812!2sThusneldastra%C3%9Fe%203%2C%2081543%20M%C3%BCnchen!5e0!3m2!1sen!2sde!4v1762111921084!5m2!1sen!2sde";
 
 export default function Contact() {
   const { t } = useTranslation();

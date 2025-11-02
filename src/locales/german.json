@@ -1,71 +1,62 @@
 {
   "nav": {
     "home": "Home",
-    "about": "über mich",
-    "contact": "kontakt",
+    "about": "Über mich",
+    "contact": "Kontakt",
     "open_menu": "Menü öffnen",
     "close_menu": "Menü schließen"
   },
   "hero": {
-    "title": "Gesangsunterricht & Vocal Coaching",
+    "title": "Gesangsunterricht & Rhetorik",
     "subtitle": "mit Svetlana Prandetskaya",
     "button": "Kontakt"
   },
   "about": {
-    "aboutSveti": "Svetlana ist eine leidenschaftliche Sängerin mit Schauspielhintergrund und Gründerin der Voice Academy Munich. Ihre über 20-jährige Erfahrung auf der Bühne und im Unterricht gibt sie heute an ihre Schüler weiter.\n\nGeboren in Kaluga, studierte sie an der Staatlichen Pädagogischen Universität und später Gesang an der Russischen Musikakademie Gnesine in Moskau. Dort leitete sie die Gesangsabteilung im Kindermusiksaal Wunderland und unterrichtete im Kreativzentrum Na Polyanka sowie in der Rolan Bykov Foundation. Außerdem war sie Jurymitglied des internationalen Wettbewerbs Light your star! und leitete Masterclasses in Gesang und Rhetorik. Seit über 15 Jahren lebt Svetlana in München, gibt Konzerte, Masterclasses und arbeitet mit dem Kulturzentrum MIR zusammen.\n \nMit der Voice Academy Munich bietet sie Unterricht in Gesang, Oratorium, Russischer Sprache und Klavier – stets mit Leidenschaft und Freude."
+    "title": "über Svetlana",
+    "aboutSveti": "Svetlana ist Rhetorik-Trainerin, professionelle Sängerin und Schauspielerin, Gesangspädagogin mit über 25 Jahren Unterrichtserfahrung, Gründerin und Leiterin der Akademie «Voice Academy Munich». \n\nSvetlana studierte an der Staatlichen Pädagogischen Universität der Stadt Kaluga und anschließend an der Gesangsfakultät der Russischen Musikakademie Gnessin in Moskau. Sie leitete die Gesangsabteilung in der Kindermusikschule «Wunderland», unterrichtete im Kreativzentrum «Na Polyanka» sowie in der Rolan-Bykov-Stiftung. Darüber hinaus war sie Jury-Mitglied des internationalen Wettbewerbs «Zünde deinen Stern an!». In Moskau führte Svetlana Masterclasses in Gesang und Rhetorik durch. Seit über 18 Jahren lebt sie in München, gibt Konzerte, Masterclasses und arbeitet aktiv mit dem Kulturzentrum MIR zusammen."
+  },
+  "aboutschool": {
+    "title": "Über unsere Schule",
+    "about": "<strong>Voice Academy Munich</strong> – ein Ort, an dem Sie lernen, <strong>schön zu sprechen und zu singen, Ihre Gefühle durch die Stimme auszudrücken</strong>, sowie <strong>Lampenfieber und Nervosität vor Auftritten zu überwinden</strong>.<br /><br />Wir bieten Unterricht in folgenden Bereichen:<ul><br /> <li>🎤 <strong>Gesang</strong></li><li>🗣 <strong>Rhetorik und Sprechtechnik</strong></li><li>👧 <strong>Sprachentwicklung für Kinder ab 5 Jahren</strong></li><li>🎭 <strong>Schauspielkunst</strong></li><br /><br />Der Unterricht findet sowohl <strong>online</strong> als auch <strong>offline</strong> statt – in einem gemütlichen Studio im Herzen von München, nur <strong>5 Gehminuten von der U-Bahn-Station Candidplatz</strong>."
   },
   "offers": {
     "gesangsunterricht": {
       "title": "Gesangsunterricht",
-      "subtitle": "Ausdruck, Technik, und Freude",
-      "text": "Singen bedeutet mehr als Töne zu treffen – es ist Atmung, Gefühl und Präsenz. Im Unterricht lernst du, deine Stimme frei einzusetzen und ohne Angst auf der Bühne zu stehen.",
-      "bulletpoints": [
-        "Befreiung von stimmlichen Blockaden",
-        "Aussprache, Artikulation & Klangbildung",
-        "Kopf- und Bruststimme, Mikrofonarbeit",
-        "Techniken wie Belting, Vibrato, Falsett u. v. m.",
-        "Verschiedene Stile: Pop, Soul, Rock, Jazz, Folk",
-        "Analyse, Phrasierung & Ausdruck deiner Songs"
-      ]
+      "subtitle": "Öffne deine Stimme - öffne dich selbst!",
+      "text": "Gesangsunterricht macht Freude und gibt Energie. In unserem Unterricht werden Sie Ihre Lieblingslieder in beliebigen Sprachen vortragen.<br /><br /><strong>Das Gesangsunterrichtsprogramm umfasst:</strong><br /><br /><ul><li>Atemtechnik für Gesang,</li><li>Beseitigung stimmlicher Blockaden und unerwünschter Klangqualitäten (Kehllage, Forcieren usw.),</li><li>Arbeit an Diktion und Artikulation,</li><li>Formung des richtigen Gesangsklangs,</li><li>Erweiterung des Stimmumfangs und Registerausgleich,</li><li>Arbeit mit Mikrofon und Grundlagen des Bühnenverhaltens,</li><li>Erlernen verschiedener Gesangstechniken,</li><li>Gesangsunterricht in den Stilen: Soul, Pop, Rock, Folk, Jazz,</li><li>und vieles mehr.</li></ul>"
     },
     "vocalcoaching": {
-      "title": "Vocal Coaching",
-      "subtitle": "entfessele deine Stimme",
-      "text": "Ob im Beruf oder privat – eine starke Stimme überzeugt. Vocal Coaching hilft dir, dein Potenzial zu entfalten: für klare Präsentationen, wirkungsvolle Gespräche und einen souveränen Auftritt. Mach deine Stimme zu deinem stärksten Ausdrucksmittel!",
-      "bulletpoints": [
-        "Belastbarkeit & flexibler Stimmführung",
-        "Sprachtempo, Artikulation & Diktion",
-        "Klangfülle, Timbre & erweitertem Umfang",
-        "Natürlich schöner, klarer Stimme"
-      ]
+      "title": "Rhetorik",
+      "subtitle": "Die Stimme - das wichtigste Einflussinstrument",
+      "text": "Ihre Stimme entscheidet darüber, ob man Ihnen zuhört. Eine Rede kann genial sein, aber die Stimme transportiert nicht nur Worte, sondern auch Ihre Sicherheit, Expertise und Energie.<br /><br />Viele Redner halten hervorragende Präsentationen, sprechen dabei aber:<br /><br /><ul><li>monoton,</li><li>unsicher,</li><li>zu schnell oder zu leise.</li></ul><br />Das Ergebnis: Das Publikum verliert das Interesse, die Botschaft verliert an Kraft.<br /><br />Die Stimme ist kein angeborenes Talent, sondern ein Instrument, das man einstellen und entwickeln kann.<br /><br />Wenn Sie möchten, dass Ihre Worte Gewicht haben – beginnen Sie mit der Arbeit an Ihrer Stimme.<br /><br />In unserem Unterricht trainieren wir die wesentlichen Bereiche:<br /><br /><ul><li><strong>Atmung</strong> – um ruhig und sicher zu sprechen</li><li><strong>Resonanz</strong> – damit die Stimme tief und kraftvoll klingt</li><li><strong>Diktion</strong> – für Klarheit und Vertrauen</li><li><strong>Intonation</strong> – um die Aufmerksamkeit des Publikums zu steuern</li></ul><br />Bereits nach den ersten Stunden werden Sie das Ergebnis spüren. Die Stimme wird zu Ihrer Stütze, und die Rede zu einem kraftvollen Einflussinstrument!"
     },
     "jahresabschlusskonzert": {
-      "title": "Jahresabschlusskonzert",
-      "text": "Ein bis zwei Mal im Jahr organisiert Svetlana mit ihren Schülern ein großes Konzert, bei dem alle zeigen können, was sie gelernt haben. Diese Konzerte sind ein Höhepunkt für Kinder wie Erwachsene: eine Bühne, auf der Talente wachsen, Ängste überwunden und neue Erfahrungen gesammelt werden.\n\n Das Jahresabschlusskonzert ist nicht nur ein Auftritt, sondern ein Fest der Musik, ein Erlebnis für die Schüler und ihre Familien – und ein unvergesslicher Beweis dafür, dass jeder seine Stimme entdecken und weiterentwickeln kann."
+      "title": "VAM-Schulkonzerte",
+      "text": "Bei den Konzerten unserer Schule demonstrieren die Schüler ihre gesanglichen und schauspielerischen Fähigkeiten. Dies ist eine großartige Gelegenheit, vor allem <strong>sich selbst zu beweisen</strong>, dass man bei Wunsch sein Talent entdecken und entwickeln kann – das Wichtigste ist, fleißig an sich zu arbeiten. <br/><br/>Unter unseren Schülern gibt es sowohl Kinder als auch Erwachsene. Für die Auftritte wird ein vielfältiges Repertoire angeboten: <strong>Pop, Soul, Jazz, Rock</strong> und andere Genres.<br/><br/>Diese Auftritte sind ein besonderes Ereignis für Kinder und Erwachsene: eine Bühne, auf der Talente wachsen, Ängste überwunden werden und neue Erfahrungen entstehen."
     },
     "masterclass": {
       "title": "Masterclass",
-      "text": "Regelmäßiger Unterricht ist nichts für dich, aber du möchtest mehr über deine Stimme lernen? Dann ist die Master Class genau das Richtige! \n \n In einer interessierten Gruppe erfährst du, wie du deine Stimme kontrollierst, verfeinerst und bewusst im Alltag einsetzt. Svetlana zeigt dir in kompakter Form die unterschätzte Bedeutung der Stimme und einfache Schritte, um sie besser zu beherrschen. \n\n Du wirst merken: Stimmbildung ist ein wertvolles Investment – denn deine Stimme ist deine Visitenkarte, dein ganz persönliches Instrument. Gestalte sie so, dass du sagst, was du willst – und genau so, wie du es willst. Wie man in Deutschland sagt: „Der Ton macht die Musik.“"
+      "text": "<strong>Ihre Stimme – das wichtigste Einflussinstrument.</strong><br /><br /><em>«Ihre Rede kann genial sein, aber die Stimme entscheidet, ob man Ihnen zuhört.»</em><br /><br />Sie kann überzeugen, inspirieren und Vertrauen wecken. Oder – im Wortfluss untergehen.<br /><br />In den Masterclasses lernen Sie, <strong>hell, sicher und professionell zu klingen</strong> – sodass jedes Wort Gewicht hat.<br /><br /><strong>👥 Für wen sind die Masterclasses geeignet:</strong><br /><br /><ul><li>Redner, Dozenten, Coaches, Moderatoren</li><li>Führungskräfte und Manager, die mit Menschen arbeiten</li><li>Alle, die <strong>sicher</strong> klingen möchten – bei der Arbeit, in Verhandlungen und im Leben</li></ul><br /><strong>✅ Was Sie bekommen:</strong><br /><br /><ul><li>Eine eingestellte und stabile Stimme ohne Anspannung</li><li>Klare Diktion und ausdrucksstarken Klang</li><li>Kontrolle über Atmung und Intonation</li><li>Innere Stütze und Sicherheit bei Auftritten</li></ul><br /><strong>🎓 Wie die Masterclasses ablaufen:</strong><br /><br /><ul><li>📍 Kleine Gruppen + individueller Ansatz</li><li>🎙 Praxis mit sofortiger Wirkung</li><li>💬 Warme, unterstützende Atmosphäre, in der Sie Ihre Stimme leicht entfalten können</li></ul><br />Sie lernen nicht einfach «zu sprechen» – <strong>Sie entdecken Ihren authentischen Klang.</strong><br /><br /><strong>🎯 Ergebnis:</strong><br /><br />Ihre Stimme wird Teil Ihrer Marke. Sie klingt <strong>sicher, überzeugend und anziehend.</strong> Sie beginnen so zu sprechen, dass man Sie wirklich <strong>hört und sich an Sie erinnert.</strong>"
     }
   },
   "quote": {
-    "quote": "Deine Stimme ist dein Instrument, deine Visitenkarte, dein bestes Mittel um dich zu verkaufen! Mach das beste draus!",
+    "quote": "«Meine Schüler gehen auf die Bühne, bestehen Castings, unterrichten, treten auf und fühlen sich einfach freier in der Kommunikation.\n\nUnd unabhängig von den Zielen – ob professioneller Gesang oder einfach der Wunsch, im Leben schön und sicher zu klingen – jeder hat eine Stimme, die nur entfaltet werden muss.» \n\n- Svetlana",
     "button": "Entwickle deine Stimme!"
   },
   "footer": {
-    "impressum": "impressum"
+    "impressum": "Impressum"
   },
   "contact": {
     "title": "Schreib mir eine Nachricht!",
-    "text": "Wenn du Interesse an Gesangsunterricht oder Vocal Coaching hast (online, oder in Person im Umkreis München), zu Konzerten und Masterclasses informiert werden möchtest, oder sonstige Fragen hast, schreib mir gerne eine Nachricht!",
+    "text": "Wenn du Interesse an Gesangsunterricht oder Vocal Coaching hast (online oder persönlich in München), über Konzerte und Masterclasses informiert werden möchtest oder irgendwelche Fragen hast, schreib mir einfach!",
     "name": "Name",
-    "mail": "E-mail",
+    "mail": "E-Mail",
     "message": "Deine Nachricht an mich...",
     "sent": "Ich melde mich bei dir!"
   },
   "location": {
-    "title": "Unser studio in München",
-    "text": "Finde uns in der Balanstrasse 73, 81541 München"
+    "title": "Unser Studio in München",
+    "text": "Sie finden uns unter der Adresse Thusneldastr. 3, 81543 München"
   },
   "gutschein": {
     "title": "Schenke eine Stimme",

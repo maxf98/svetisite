@@ -45,10 +45,7 @@ export default function ImageCarousel({
           {items.map((item) => (
             <CarouselItem
               key={item.src}
-              className={clsx(
-                "basis-full sm:basis-1/2 lg:basis-1/5",
-                itemClassName
-              )}
+              className={clsx("basis-1/3 lg:basis-1/5", itemClassName)}
             >
               <button
                 type="button"

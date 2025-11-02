@@ -11,7 +11,10 @@ import Socials from "@/app/components/Socials";
 
 import { useTranslation } from "./providers";
 
-const NAV_LINKS = [{ href: "/contact", labelKey: "nav.contact" }];
+const NAV_LINKS = [
+  { href: "/", labelKey: "nav.home" },
+  { href: "/contact", labelKey: "nav.contact" },
+];
 
 export default function Header() {
   const { t } = useTranslation();
@@ -44,7 +47,7 @@ export default function Header() {
             {/* Left side: logo + brand name */}
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/logoo.png"
+                src="/logooo.png"
                 alt="Logo"
                 width={70}
                 height={70}
@@ -73,9 +76,8 @@ export default function Header() {
                 )}
               </button>
 
-              <div className="hidden items-center gap-6 md:flex">
-                <Socials />
-                <nav className="flex items-center gap-6">
+              <div className="hidden items-center gap-8 md:flex">
+                <nav className="flex items-center gap-3">
                   {NAV_LINKS.map(({ href, labelKey }) => {
                     const isRoot = href === "/";
                     const isActive = isRoot
@@ -96,6 +98,8 @@ export default function Header() {
                     );
                   })}
                 </nav>
+                <Socials />
+
                 <LanguageToggle />
               </div>
             </div>

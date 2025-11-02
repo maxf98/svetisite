@@ -17,7 +17,7 @@ export const StaggeredFade: React.FC<TextStaggeredFadeProps> = ({
     show: (i: number) => ({
       y: 0,
       opacity: 1,
-      transition: { delay: i * 0.03 },
+      transition: { delay: i * 0.02 },
     }),
   };
 
@@ -26,14 +26,14 @@ export const StaggeredFade: React.FC<TextStaggeredFadeProps> = ({
   const isInView = useInView(ref, { once: true });
 
   return (
-    <motion.h1
+    <motion.p
       ref={ref}
       initial="hidden"
       animate={isInView ? "show" : ""}
       variants={variants}
       viewport={{ once: true }}
       className={cn(
-        "text-xl text-center sm:text-4xl font-bold tracking-tighter md:text-6xl md:leading-[4rem]",
+        "max-w-[800px] text-2xl text-center tracking-tighter",
         className
       )}
     >
@@ -42,6 +42,6 @@ export const StaggeredFade: React.FC<TextStaggeredFadeProps> = ({
           {word}
         </motion.span>
       ))}
-    </motion.h1>
+    </motion.p>
   );
 };
