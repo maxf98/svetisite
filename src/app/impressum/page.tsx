@@ -9,8 +9,8 @@ export default function Impressum() {
         <p>Svetlana Prandetskaya</p>
         <h2>Information über das Unternehmen</h2>
         <p>Freiberufler</p>
-        <p>Füllstr. 1</p>
-        <p>München, 81545</p>
+        <p>Thusneldastraße 3</p>
+        <p>München, 81543</p>
         <p>svetlana_prandetskaya@yahoo.de</p>
         <p>+491795271518</p>
       </div>
